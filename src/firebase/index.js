@@ -11,9 +11,8 @@ const firebaseConfig = {
   projectId: "sigma-04",
   storageBucket: "sigma-04.appspot.com",
   messagingSenderId: "376891827092",
-  appId: "1:376891827092:web:b05123e8a3987f4d60e581"
+  appId: "1:376891827092:web:b05123e8a3987f4d60e581",
 };
-
 
 const app = initializeApp(firebaseConfig);
 
