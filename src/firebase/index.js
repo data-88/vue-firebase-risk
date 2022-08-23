@@ -2,15 +2,18 @@ import { initializeApp } from "firebase/app";
 import * as auth from "firebase/auth";
 import * as firestore from "firebase/firestore";
 
+// Your web app's Firebase configuration
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDzSdZQ9ChhHzrCOT1RmgN051RUS4CKTRE",
-  authDomain: "vue-firebase-todo-meowkita.firebaseapp.com",
-  projectId: "vue-firebase-todo-meowkita",
-  storageBucket: "vue-firebase-todo-meowkita.appspot.com",
-  messagingSenderId: "193652589093",
-  appId: "1:193652589093:web:b3a54bd63c1922c6ddb5cc",
-  measurementId: "G-DXHECCK84D",
+  apiKey: "AIzaSyDQr-H2wR736qlWfQeyJj5m6vxpeXrItHE",
+  authDomain: "sigma-04.firebaseapp.com",
+  databaseURL: "https://sigma-04-default-rtdb.firebaseio.com",
+  projectId: "sigma-04",
+  storageBucket: "sigma-04.appspot.com",
+  messagingSenderId: "376891827092",
+  appId: "1:376891827092:web:b05123e8a3987f4d60e581"
 };
+
 
 const app = initializeApp(firebaseConfig);
 
