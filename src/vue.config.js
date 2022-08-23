@@ -1,4 +1,4 @@
 module.exports = {
   process
-  .env.NODE_ENV === "production" ? "/vue-firebase-todo/" : "/"
+  .env.NODE_ENV === "production" ? "/vue-firebase-risk/" : "/"
 }
